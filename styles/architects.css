@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&family=Work+Sans:ital,wght@1,500&display=swap');
+
+ body{
+    font-family: 'Work Sans', sans-serif;
+}
+.header{
+    background-color: papayawhip;
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.nav-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+}
+nav ul li{
+    margin: 15px;
+}
+/* banner style */
+.banner{
+    text-align: center;
+}
+.primary-btn{
+    width: 180px;
+    height: 64px;
+    background-color:orange;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border:none;
+    margin:40px 0;
+
+}
+.header-title{
+    font-weight: 700;
+    font-size:64px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+/* images styles */
+.imagebox{
+    display: flex;
+    gap:100px;
+}
+.images{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 15px;
+    border-radius: 8px;
+    margin-top: 85px;
+}
+.image-description{
+    margin-top: 300px;
+
+}
+.image-description .quick{
+    color:#727272;
+}
+.image-description .feature{
+    color:#FF900E;
+
+}
