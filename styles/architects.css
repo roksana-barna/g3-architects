@@ -76,3 +76,34 @@ nav ul li{
     color:#FF900E;
 
 }
+/* feature style */
+.feat-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: black;
+    border-left: 4px solid orange;
+    padding-left: 15px;
+}
+.deskbox{
+
+    box-shadow: darkcyan;
+}
+.featurebox{
+    display: flex;
+    margin-top: 90px;
+    gap: 50px;
+}
+.featurebox img{
+    width: 698px;
+    height: 882px;
+}
+.yearbutton{
+    width: 120px;
+    height: 70px;
+    background-color:orange;
+    color:white;
+    border-radius: 5px;
+    border: none;
+    position:relative;
+    left:760px;
+}
