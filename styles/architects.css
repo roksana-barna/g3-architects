@@ -92,10 +92,12 @@ nav ul li{
     display: flex;
     margin-top: 90px;
     gap: 50px;
+
 }
 .featurebox img{
     width: 698px;
     height: 882px;
+
 }
 .yearbutton{
     width: 120px;
@@ -106,6 +108,7 @@ nav ul li{
     border: none;
     position:relative;
     left:760px;
+
 }
 /* icons style */
 .icon{
@@ -126,6 +129,32 @@ nav ul li{
 .icon:hover{
     background-color: cadetblue;
 }
+
+/* new section style */
+.new-section{
+    background-image: url('/images/new.jpg');
+    height:400px ;
+    margin:100px 0;
+
+}
+.new-title{
+    font-weight: 700;
+    font-size: 45px;
+    padding: 30px;
+    color: bisque;
+}
+.comfortp{
+    color:bisque;
+    font-weight: 400;
+    font-size:x-large;
+    margin-left: 20px;
+}
+.best{
+    color:yellow;
+    font-size: xx-large;
+}
+
+
 /* sponser */
 .sponsors{
     text-align: center;
