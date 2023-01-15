@@ -132,7 +132,7 @@ nav ul li{
 
 /* new section style */
 .new-section{
-    background-image: url('/images/new.jpg');
+    background-image: url('../images/new.jpg');
     height:400px ;
     margin:100px 0;
 
